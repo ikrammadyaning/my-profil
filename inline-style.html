@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="eid">
 <head>
     <!-- ======================================================= -->
     <!-- BAGIAN HEAD: Informasi untuk Browser                      -->
@@ -9,61 +9,22 @@
 
     <!-- TUGAS 1: Ganti judul di bawah ini dengan nama lengkapmu -->
     <title>Profil Digital - Ikram Madyaning</title>
-</head>
-       <style>
-            body{
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-                background-color: rgb(156, 147, 147); 
-                color: black; 
-                padding: 20px;
-            }
+   
+</head> 
+   
 
-            header{
-                background-color: aqua; 
-                padding: 15px; 
-                text-align: center; 
-                border-radius: 10px;
-            }
-
-            .section-pertama{
-                background-color: aqua; 
-                border-radius: 10px solid black; 
-                padding: 15px; text-align: center; 
-                box-shadow: 10px; 
-                border-radius: 10px;
-            }
-            .section-kedua{
-                background-color: aqua; 
-                border-radius: 10px black; 
-                padding: 15px; text-align: center; 
-                box-shadow: 10px; 
-                border-radius: 10px;
-            }
-            .section-ketiga{
-                background-color: aqua; 
-                border-radius: 10px black; 
-                padding: 15px; 
-                text-align: center; 
-                box-shadow: 10px; 
-                border-radius: 10px;
-            }
-            footer{
-                text-align: center; background-color: aqua; padding: 10px; border-radius: 10px;
-            }
-
-       </style>
-
-<body>
+<body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; background-color: rgb(156, 147, 147); color: black; padding: 20px;">
 
     <!-- ======================================================= -->
     <!-- BAGIAN HEADER: Judul Utama dan Perkenalan Singkat       -->
     <!-- ======================================================= -->
-    <header>
+    <header style="background-color: aqua; padding: 15px; text-align: center; border-radius: 10px;"> 
+        <!-- style di header untuk membuat bg nya di paling atas -->
         <!-- TUGAS 2: Isi dengan nama lengkapmu -->
-        <h1>Hai,Saya Ikram Madyaning Qolbu Kamil</h1>
+        <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 35px;">Hai,Saya Ikram Madyaning Qolbu Kamil</h1>
 
         <!-- TUGAS 3: Isi dengan jabatan atau tagline singkat (Contoh: Siswa, Calon Web Developer) -->
-        <p>Saya adalah seorang Siswa atau Santri di SMA IT HSI dan saya adalah calon WEB Develper</p>
+        <p>Programmer And desainer</p>
     </header>
 
     <hr> <!-- Ini adalah tag untuk membuat garis horizontal, sebagai pemisah -->
@@ -74,7 +35,7 @@
     <main>
 
         <!-- === Bagian Tentang Saya === -->
-        <section class="section-pertama">
+        <section class="section-pertama" style="background-color: aqua; border-radius: 10px solid black; padding: 15px; text-align: center; box-shadow: 10px; border-radius: 10px;">
             <h2>Tentang Saya</h2>
 
             <!-- TUGAS 4:
@@ -82,7 +43,7 @@
                 2. Ganti 'nama-file-gambar.jpg' dengan nama file fotomu yang sebenarnya.
                 3. Ganti teks 'alt' dengan deskripsi fotomu.
             -->
-            <img src="WhatsApp Image 2025-08-09 at 14.26.17.jpeg" alt="seorang pelajar" width="300" style="border-radius: 50%; border: 5px solid black;">
+            <img src="WhatsApp Image 2025-08-09 at 14.26.17.jpeg" alt="seorang pelajar" width="300" height="350" style="object-fit: cover; border-radius: 50px;">
 
             <!-- TUGAS 5: Tulis satu atau dua paragraf singkat tentang dirimu, minat, atau cita-citamu di sini. -->
             <p>
@@ -94,7 +55,7 @@
 
         <!-- === Bagian Skill / Keahlian === -->
         <!-- Menggunakan <ol> (Ordered List) karena kita ingin menampilkannya sebagai daftar bernomor (menunjukkan urutan/prioritas) -->
-        <section class="section-kedua">
+        <section style="background-color: aqua; border-radius: 10px black; padding: 15px; text-align: center; box-shadow: 10px; border-radius: 10px;">
             <h2>Skill Unggulan</h2>
             <ol>
                 
@@ -103,17 +64,17 @@
                 <li>Photoshop & Figma</li>
                 <li>mengaji</li>
             </ol>
-        </section>
+        </section >
 
         <hr>
 
         <!-- === Bagian Riwayat Pendidikan === -->
         <!-- Menggunakan <table> untuk menampilkan data yang terstruktur rapi -->
-        <section class="section-ketiga">
+        <section style="background-color: aqua; border-radius: 10px black; padding: 15px; text-align: center; box-shadow: 10px; border-radius: 10px;">
             <h2>Riwayat Pendidikan</h2>
-            <table border="2" style="min-width: 400px; width: 100%; border: 1px solid;">
+            <table border="1" cellpadding="5" style="width: 100px;">
                 <!-- Baris untuk Judul Kolom -->
-                <tr style="background-color: rgb(80, 253, 37);">
+                <tr>
                     <th>jenjang</th>
                     <th>Nama Sekolah</th>
                     <th>Tahun</th>
@@ -153,20 +114,20 @@
     <!-- ======================================================= -->
     <!-- BAGIAN FOOTER: Link Kontak dan Copyright                -->
     <!-- ======================================================= -->
-    <footer>
+    <footer style="text-align: center; background-color: aqua; padding: 10px; border-radius: 10px;">
         <h2>Hubungi Saya</h2>
 
         <!-- Menggunakan <ul> (Unordered List) karena urutan sosial media tidak penting -->
-        <ul>
+        <ul style="list-style: none;">
             <!-- TUGAS 8: Ganti '#' dengan link sosial media dan 'Nama Sosmed' dengan namanya (misal: GitHub, Instagram) -->
-            <li><a href="https://www.instagram.com/ikram.madd_/">Instagram : @ikram.mady_</a></li>
-            <li><a href="https://www.instagram.com/ikram.mady_/">Instagram : @ikram.madd_</a></li>
-            <li><a href="#">WhatsApp : +62-857-5904-0262</a></li>
-            <li><a href="https://www.tiktok.com/@kromosom_10">TikTok : @ikram.madd_/a></li>
+            <li><a style="text-decoration: none; color: blue;" href="https://www.instagram.com/ikram.madd_/">Instagram : @ikram.mady_</a></li>
+            <li><a style="text-decoration: none; color: goldenrod" href="https://www.instagram.com/ikram.mady_/">Instagram : @ikram.madd_</a></li>
+            <li><a style="text-decoration: none; color: blue" href="https://github.com/ikrammadyaning">Github : ikrammadyaning</a></li>
+            <li><a style="text-decoration: none; color: goldenrod" href="https://www.tiktok.com/@kromosom_10">TikTok : @ikram.madd_/a></li>
         </ul>
 
         <!-- TUGAS 9: Ganti [Nama Kamu] dengan namamu -->
-        <p>&copy; 2025 Ikram Madyaning. Dibuat dengan penuh semangat.</p>
+        <p style="color: black;">&copy; 2025 Ikram Madyaning. Dibuat dengan penuh semangat.</p>
     </footer>
 
 </body>
